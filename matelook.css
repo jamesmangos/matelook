@@ -1,0 +1,124 @@
+.matelook_heading {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.matelook_user_details {
+    background-color: #ABCDEF;
+	overflow: auto;
+    color: #204142;
+    white-space: pre;
+    border:thin solid #204142;
+    border-radius: 1em;
+    padding-left: 0.42em;
+}
+
+.matelook_button {
+    background-color: #FEDBCA;
+    border:thin solid #904142;
+    border-radius: 0.42em;
+    color: #904142;
+}
+
+.post {
+	background-color: #ABCDEF;
+	color: #204142;
+	border:thin solid #204142;
+	border-radius: 1em;
+	padding-left: 0.42em;
+	overflow: auto;
+	word-wrap: break-word;
+}
+
+.comment {
+	background-color: #ABCDEF;
+	color: #204142;
+	border:thin solid #204142;
+	border-radius: 1em;
+	padding-left: 0.42em;
+	overflow: auto;
+}
+.reply {
+	background-color: #ABCDEF;
+	color: #204142;
+	border:thin solid #204142;
+	border-radius: 1em;
+	padding-left: 0.42em;
+	overflow: auto;
+}
+
+.comment_input{
+	background-color: #CBCDEF;
+	border:thin solid #204142;
+	border-radius: .5em;
+	height: 3em;
+	padding-right: 0.42em;
+	width: 80em;
+	align: right;
+}
+
+.wide_text_box {
+	width: 50em;
+}
+
+.matelist{
+	width: 100%;
+	height: 2.5em;
+	overflow: auto;
+}
+
+.new_post_box{
+	background-color: #CBCDEF;
+	border:thin solid #204142;
+	border-radius: .5em;
+	height: 3em;
+	align: center;
+}
+
+body {
+	background-size: 100%;
+}
+
+.pagination{
+	background-color: #FFFFFF;
+	border:thin solid #204142;
+	border-radius: .5em;
+	height: 3em;
+	align: center;
+}
+
+/*
+	from http://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black
+*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ABCDEF;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+	/*margin: 0 0 1em 0;*/
+	/*padding: 20px;
+	height: 20px;*/
+	padding: .45em;
+}
+
+/*makes input type=file invisible*/
+input[type="file"] {
+    display: none;
+}
+
+/*makes textareas unable to be resized*/
+textarea {
+   resize: none;
+}
